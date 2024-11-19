@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: "Open Sans", sans-serif;
+}
+
+headline{
+  color: #E1624F;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 32px;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 28px;
+}
+h1, h2, h3{
+  color: #1B1B1B;
+}
+p{
+  font-weight: normal;
+  font-size: 16px;
+}
+
+st {
+  font-size: 16px;
+  font-style: italic;
+}
+
+p,st{
+  color: #333333;
+}
+
+img{
+  width: 1120px;
+  height: 350px;
+  border-image-slice: fill;
+}
