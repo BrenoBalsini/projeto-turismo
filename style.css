@@ -1,13 +1,10 @@
 *{
   margin: 0;
   padding: 0;
-}
-
-html{
   font-family: "Open Sans", sans-serif;
 }
 
-headline{
+#hd{
   color: #E1624F;
   font-weight: bold;
   font-size: 16px;
@@ -33,19 +30,38 @@ h1, h2, h3{
 p{
   font-weight: normal;
   font-size: 16px;
+  color: #333333;
 }
 
-st {
+#st {
+  text-align: center;
   font-size: 16px;
   font-style: italic;
-}
-
-p,st{
   color: #333333;
+  
 }
 
 img{
   width: 1120px;
   height: 350px;
   border-image-slice: fill;
+  border-radius: 28px;
+}
+
+#noite{
+  height: 660px;
+}
+
+#page{
+  width: 1120px;
+  margin: auto;
+}
+
+body{
+background-color: #29292E;
+}
+#main{
+  background-color: #ffffff;
+  width: 1280px;
+  margin: auto;
 }
