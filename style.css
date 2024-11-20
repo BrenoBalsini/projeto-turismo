@@ -13,6 +13,7 @@
 h1{
   font-weight: bold;
   font-size: 36px;
+  margin: 8px 0;
 }
 
 h2{
@@ -46,6 +47,7 @@ img{
   height: 350px;
   border-image-slice: fill;
   border-radius: 28px;
+  margin-bottom: 20px;
 }
 
 #noite{
@@ -61,7 +63,20 @@ body{
 background-color: #29292E;
 }
 #main{
+  box-sizing: border-box;
   background-color: #ffffff;
   width: 1280px;
   margin: auto;
+  padding: 88px 0 48px 0;
+}
+
+#hd + h2{
+  margin-top: 2px;
+}
+ img + #st {
+  margin-top: 24px;
+ }
+#descubra {
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
