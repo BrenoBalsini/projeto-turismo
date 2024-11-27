@@ -19,11 +19,13 @@ h1{
 h2{
   font-weight: bold;
   font-size: 32px;
+  margin-bottom: 8px;
 }
 
 h3{
   font-weight: bold;
   font-size: 28px;
+  margin-bottom: 4px;
 }
 h1, h2, h3{
   color: #1B1B1B;
@@ -39,7 +41,17 @@ p{
   font-size: 16px;
   font-style: italic;
   color: #333333;
-  
+}
+
+#rodape {
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+}
+
+#drp {
+margin-top: 40px;
+margin-bottom: 40px;
 }
 
 img{
@@ -60,8 +72,9 @@ img{
 }
 
 body{
-background-color: #29292E;
+  background-color: #29292E;
 }
+
 #main{
   box-sizing: border-box;
   background-color: #ffffff;
@@ -70,13 +83,71 @@ background-color: #29292E;
   padding: 88px 0 48px 0;
 }
 
+
 #hd + h2{
   margin-top: 2px;
 }
+
  img + #st {
   margin-top: 24px;
  }
+
 #descubra {
   margin-top: 64px;
   margin-bottom: 64px;
+}
+
+#divnoite {
+  margin-bottom: 40px;
+}
+
+hr {
+  border-top: 0.5px solid #d9d9d9;
+}
+
+li{
+  margin-left: 32px;
+}
+
+#azul {
+  font-weight: bold;
+  color: #0C51A7;
+}
+
+#roxo{
+  font-weight: bold;
+  color: #591B98;
+}
+
+#rosa{
+  font-weight: bold;
+  color: #E5245E;
+}
+
+#laranja{
+  font-weight: bold;
+  color: #E95E10;
+}
+
+#bompara{
+  font-weight: bold;
+}
+
+section + section{
+  margin-top: 40px;
+}
+
+footer {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+  padding-bottom: 48px;
+  margin-top: 65px;
+}
+
+footer img {
+ vertical-align: middle;
+ height: 16px;
+ width: 16px;
 }
